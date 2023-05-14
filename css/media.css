@@ -1,0 +1,52 @@
+/*RESPONSIVO*/
+@media(max-width: 666px) {
+  #main-banner {
+    background-position-y: 0;
+  }
+
+  #main-banner h1 {
+    padding: 8px;
+  }
+
+  #main-container {
+    margin-bottom: 0;
+    min-height: 73%
+  }
+
+  #main-container .container {
+    padding: 8px;
+  }
+
+  .form-group .btn.btn-primary {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+
+  .table-container {
+    padding: 0;
+  }
+
+  .table td, .table th {
+    padding: .5rem;
+  }
+
+  th span {
+    display: none;
+  }
+
+  .table thead th:nth-child(5),
+  .table thead th:nth-child(6),
+  .table tbody td:nth-child(5),
+  .table tbody td:nth-child(6){
+    display: none;
+  }
+}
+
+@media(min-width: 768px) {
+  #main-container {
+    min-height: 75%
+  }
+
+}
